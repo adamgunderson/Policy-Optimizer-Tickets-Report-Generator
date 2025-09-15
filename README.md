@@ -45,13 +45,13 @@ cd Policy-Optimizer-Tickets-Report-Generator
 ### Interactive Mode
 Run without arguments for interactive prompts:
 ```bash
-python3 po_tickets_report.py
+python3.12 po_tickets_report.py
 ```
 
 ### Command-Line Mode
 Specify all options via command line:
 ```bash
-python3 po_tickets_report.py \
+python3.12 po_tickets_report.py \
     --host https://firemon.example.com \
     --username admin \
     --password yourpassword \
@@ -65,12 +65,12 @@ python3 po_tickets_report.py \
 
 ### Generate Sample Configuration
 ```bash
-python3 po_tickets_report.py --generate-sample-config
+python3.12 po_tickets_report.py --generate-sample-config
 ```
 
 ### Generate Configuration from Current Run
 ```bash
-python3 po_tickets_report.py \
+python3.12 po_tickets_report.py \
     --host https://firemon.example.com \
     --username admin \
     --password yourpassword \
@@ -83,7 +83,7 @@ python3 po_tickets_report.py \
 
 ### Use Configuration File
 ```bash
-python3 po_tickets_report.py --config my_config.json --password yourpassword
+python3.12 po_tickets_report.py --config my_config.json --password yourpassword
 ```
 
 ## Command-Line Arguments
@@ -154,7 +154,7 @@ python3 po_tickets_report.py \
 ### Filtered Report with Rule Details
 ```bash
 # Generate report for Review tickets from last 7 days with rule details
-python3 po_tickets_report.py \
+python3.12 po_tickets_report.py \
     --host https://firemon.example.com \
     --username admin \
     --password pass123 \
@@ -168,7 +168,7 @@ python3 po_tickets_report.py \
 ### Selective Field Inclusion
 ```bash
 # Include only specific rule detail and documentation fields
-python3 po_tickets_report.py \
+python3.12 po_tickets_report.py \
     --host https://firemon.example.com \
     --username admin \
     --password pass123 \
@@ -183,7 +183,7 @@ python3 po_tickets_report.py \
 ### Email Report
 ```bash
 # Generate and email report
-python3 po_tickets_report.py \
+python3.12 po_tickets_report.py \
     --config config.json \
     --password pass123 \
     --email \
@@ -197,7 +197,7 @@ python3 po_tickets_report.py \
 ### Discovery Mode
 ```bash
 # Discover all available fields and save configuration
-python3 po_tickets_report.py \
+python3.12 po_tickets_report.py \
     --host https://firemon.example.com \
     --username admin \
     --password pass123 \
