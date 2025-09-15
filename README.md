@@ -316,7 +316,7 @@ python3 po_tickets_report.py \
 - Network access to FireMon instance
 
 ### FireMon Requirements
-- FireMon 9.x or 10.x
+- FireMon 8.x+
 - Policy Optimizer module licensed and configured
 - User account with appropriate permissions
 
