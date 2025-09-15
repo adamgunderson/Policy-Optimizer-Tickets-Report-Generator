@@ -11,7 +11,6 @@ A comprehensive Python script for generating CSV and HTML reports from FireMon P
 - **Email Integration**: Send reports automatically via SMTP or local mail system
 - **Auto-Discovery**: Automatically discover available rule documentation fields
 - **Interactive HTML Reports**: Sortable columns, clickable filters, and responsive design
-- **Horizontally Sticky Headers**: Keep context visible when viewing wide tables
 
 ## Prerequisites
 
